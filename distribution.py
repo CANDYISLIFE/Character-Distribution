@@ -38,6 +38,5 @@ Notice about this example:
 """
 userInput = input("Please enter a string of text (the bigger the better): ")
 
-import userInput
-
-lowerCase = userInput.ascii_lowercase
+for i in userInput:
+    
