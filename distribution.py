@@ -38,5 +38,34 @@ Notice about this example:
 """
 userInput = input("Please enter a string of text (the bigger the better): ")
 
-for i in userInput:
-    
+
+
+userInput.count('a')
+"""
+userInput.count('b')
+userInput.count('c')    
+userInput.count('d')
+userInput.count('e')
+userInput.count('f')
+userInput.count('g')
+userInput.count('h')
+userInput.count('i')
+userInput.count('j')
+userInput.count('k')
+userInput.count('l')
+userInput.count('m')
+userInput.count('n')
+userInput.count('o')
+userInput.count('p')
+userInput.count('q')
+userInput.count('r')
+userInput.count('s')
+userInput.count('t')
+userInput.count('u')
+userInput.count('v')
+userInput.count('w')
+userInput.count('x')
+userInput.count('y')
+userInput.count('z')
+
+"""
