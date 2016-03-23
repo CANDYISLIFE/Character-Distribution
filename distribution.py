@@ -38,8 +38,15 @@ Notice about this example:
 """
 userInput = input("Please enter a string of text (the bigger the better): ")
 
+inputList = []
 
+for i in userInput:
+    if i != ' ':
+        inputList.append(i)
 
+print(inputList)
+        
+"""
 userInput.count('a')
 userInput.count('b')
 userInput.count('c')    
@@ -66,4 +73,4 @@ userInput.count('w')
 userInput.count('x')
 userInput.count('y')
 userInput.count('z')
-
+"""
