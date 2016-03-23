@@ -44,8 +44,12 @@ for i in userInput:
     if i != ' ':
         inputList.append(i)
 
-print(inputList)
+for s in userInput:
+    if s == a:
         
+print(inputList)
+
+    
 """
 userInput.count('a')
 userInput.count('b')
