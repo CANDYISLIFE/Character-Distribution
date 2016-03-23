@@ -45,11 +45,14 @@ for i in userInput:
         inputList.append(i)
 
 for s in userInput:
-    if s == a:
+    if s == "a":
+        print('a')
         
 print(inputList)
 
-    
+a = userInput.count('a')
+print(a)  
+
 """
 userInput.count('a')
 userInput.count('b')
