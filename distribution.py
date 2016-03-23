@@ -41,7 +41,6 @@ userInput = input("Please enter a string of text (the bigger the better): ")
 
 
 userInput.count('a')
-"""
 userInput.count('b')
 userInput.count('c')    
 userInput.count('d')
@@ -68,4 +67,3 @@ userInput.count('x')
 userInput.count('y')
 userInput.count('z')
 
-"""
