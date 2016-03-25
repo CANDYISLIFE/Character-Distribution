@@ -46,7 +46,11 @@ for s in userInput:
     if s != " " and s != "," and s != "?" and s != "!" and s != "." and s != "'":
         characters[s]+=s
 
-
+for s in characters[i]:
+    if s= len(userInput):
+        print(characters[i])
+    elif  
+    
 for i in characters:
     if characters[i] != "":
         print(characters[i])
