@@ -38,7 +38,12 @@ Notice about this example:
 """
 userInput = input("Please enter a string of text (the bigger the better): ")
 
+characters = {"a":"","b":"","c":"","d":"","e":"","f":"","g":"","h":"","i":"","j":"","k":"","l":"","m":"","n":"","o":"","p":"","q":"","r":"","s":"","t":"","u":"","v":"","w":"","x":"","y":"","z":""}
 inputList = []
+
+for s in inputList:
+    characters[s]+=s
+"""
 
 for i in userInput:
     if i != ' ':
@@ -47,13 +52,12 @@ for i in userInput:
 for s in userInput:
     if s == "a":
         print('a')
-        
+
 print(inputList)
 
 a = userInput.count('a')
 print(a)  
 
-"""
 userInput.count('a')
 userInput.count('b')
 userInput.count('c')    
