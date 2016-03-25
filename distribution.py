@@ -47,8 +47,13 @@ for s in userInput:
         characters[s]+=s
 
 print (characters)
-#for i in characters:
-#    print(i)
+
+
+for i in characters:
+    if characters[i] != "":
+        print(characters[i])
+
+
 """
 for i in userInput:
     if i != ' ':
