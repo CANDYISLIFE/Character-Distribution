@@ -48,7 +48,7 @@ for s in userInput:
 print(len(userInput))
 
 for s in characters[i]:
-    if s= len(userInput):
+    if s = len(userInput):
         print(characters[i])
    
     
