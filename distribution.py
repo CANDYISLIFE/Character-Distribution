@@ -43,8 +43,10 @@ inputList = []
 
 for s in inputList:
     characters[s]+=s
-"""
 
+for i in characters:
+    print(i)
+"""
 for i in userInput:
     if i != ' ':
         inputList.append(i)
