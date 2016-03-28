@@ -63,6 +63,9 @@ for key in characters:
 charlist.sort()
 print(charlist)
 
+for l in range(len(userInput),0,-1):
+    print(l)
+
 """
 print(characters)
     
