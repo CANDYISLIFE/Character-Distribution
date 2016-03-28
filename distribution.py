@@ -60,7 +60,7 @@ for key in characters:
         charlist.append(characters[key])
     
 
-charlist.sort(key = len)
+charlist.sort()
 print(charlist)
 
 """
