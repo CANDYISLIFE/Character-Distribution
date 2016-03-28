@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Billy
-Credit: <list sources used, if any>
+Credit: http://stackoverflow.com/questions/403421/how-to-sort-a-list-of-objects-in-python-based-on-an-attribute-of-the-objects
 
 Assignment:
 
@@ -36,6 +36,7 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+
 userInput = input("Please enter a string of text (the bigger the better): ")
 userInput = userInput.lower()
 
@@ -46,11 +47,15 @@ for s in userInput:
     if s != " " and s != "," and s != "?" and s != "!" and s != "." and s != "'":
         characters[s]+=s
 print(len(userInput))
+"""
+for s in characters[s]:
+    if s == len(userInput):
+        print(characters[s])
+"""
 
-for s in characters[i]:
-    if s = len(userInput):
-        print(characters[i])
-   
+characters.sort(key=lambda x: x.count, reverse=True)  
+
+print(characters)
     
 for i in characters:
     if characters[i] != "":
