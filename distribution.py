@@ -50,16 +50,26 @@ print(len(userInput))
 for s in characters[s]:
     if s == len(userInput):
         print(characters[s])
-"""
+
 
 characters.sort(lambda x,y: cmp(len(x), len(y))) 
+"""
+charlist = []
+for key in characters:
+    if len(characters[key]) > 0:
+        charlist.append(characters[key])
+    
 
+charlist.sort(key = len)
+print(charlist)
+
+"""
 print(characters)
     
 for i in characters:
     if characters[i] != "":
         print(characters[i])
-
+"""
 
 """
 for i in userInput:
