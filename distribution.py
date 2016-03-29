@@ -67,8 +67,7 @@ for l in range(len(userInput),0,-1):
     for d in charlist:
         if len(d) == l:
             print(d)
-
-
+        elif print(charlist.sort())
 
 """
 print(characters)
