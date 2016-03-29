@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Billy
-Credit: http://stackoverflow.com/questions/403421/how-to-sort-a-list-of-objects-in-python-based-on-an-attribute-of-the-objects, http://stackoverflow.com/questions/2587402/sorting-python-list-based-on-the-length-of-the-string
+Credit: http://stackoverflow.com/questions/403421/how-to-sort-a-list-of-objects-in-python-based-on-an-attribute-of-the-objects, http://stackoverflow.com/questions/2587402/sorting-python-list-based-on-the-length-of-the-string, Mr Dennison
 
 Assignment:
 
