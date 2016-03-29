@@ -64,11 +64,11 @@ charlist.sort()
 print(charlist)
 
 for l in range(len(userInput),0,-1):
-    print(l)
+    for d in charlist:
+        if len(d) == l:
+            print(d)
 
-for d in charlist:
-    if d == l:
-        print d
+
 
 """
 print(characters)
