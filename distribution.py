@@ -50,8 +50,6 @@ print(len(userInput))
 for s in characters[s]:
     if s == len(userInput):
         print(characters[s])
-
-
 characters.sort(lambda x,y: cmp(len(x), len(y))) 
 """
 charlist = []
@@ -59,15 +57,12 @@ for key in characters:
     if len(characters[key]) > 0:
         charlist.append(characters[key])
     
-
 charlist.sort()
-print(charlist)
 
 for l in range(len(userInput),0,-1):
     for d in charlist:
         if len(d) == l:
             print(d)
-        elif print(charlist.sort())
 
 """
 print(characters)
@@ -75,9 +70,7 @@ print(characters)
 for i in characters:
     if characters[i] != "":
         print(characters[i])
-"""
-
-"""
+        
 for i in userInput:
     if i != ' ':
         inputList.append(i)
@@ -90,31 +83,4 @@ print(inputList)
 
 a = userInput.count('a')
 print(a)  
-
-userInput.count('a')
-userInput.count('b')
-userInput.count('c')    
-userInput.count('d')
-userInput.count('e')
-userInput.count('f')
-userInput.count('g')
-userInput.count('h')
-userInput.count('i')
-userInput.count('j')
-userInput.count('k')
-userInput.count('l')
-userInput.count('m')
-userInput.count('n')
-userInput.count('o')
-userInput.count('p')
-userInput.count('q')
-userInput.count('r')
-userInput.count('s')
-userInput.count('t')
-userInput.count('u')
-userInput.count('v')
-userInput.count('w')
-userInput.count('x')
-userInput.count('y')
-userInput.count('z')
 """
