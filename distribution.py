@@ -44,7 +44,7 @@ characters = {"a":"","b":"","c":"","d":"","e":"","f":"","g":"","h":"","i":"","j"
 inputList = []
 
 for s in userInput:
-    if s != " " and s != "," and s != "?" and s != "!" and s != "." and s != "'":
+    if s != " " and s != "," and s != "?" and s != "!" and s != "." and s != "'" and s != ";" and s != ":":
         characters[s]+=s
 
 """
